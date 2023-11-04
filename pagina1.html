@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Worker</title>
+    <!-- Bootstrap CSS y JavaScript -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+body {
+    background-color: #bedeff;
+    background-image: linear-gradient(62deg, #bedeff 0%, #E0C3FC 50%, #c5c9ff 100%);
+    background: linear-gradient(to right, #bedeff, #E0C3FC, #c5c9ff);
+}
+
+.jumbotron {
+    background: rgba(0, 0, 0, .1);
+}
+
+.footer {
+    background: rgba(0, 0, 0, .1);
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 0 8px 10px -4px rgba(0, 0, 0, .6);
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: rgba(0, 0, 0, .1);">
+        <a class="navbar-brand" href="#">Service Worker</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina1.html">Pagina 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina2.html">Pagina 2</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-3">
+        <div class="jumbotron">
+        	<center>
+            <h1 class="display-4">Ejemplo 1 de Service Worker</h1>
+            <p class="lead">Aplicaciones Web</p>
+                    <p>Una aplicación web es un software cliente-servidor que permite realizar funciones determinadas en internet, como enviar mensajes, realizar compras, editar imágenes, jugar videojuegos, hacer pagos, entre otras acciones.</p>
+                    <img src="img/img1.1.jpg">
+                    </center>
+            </div>
+            <!-- Archivo main.js -->
+            <script src="main.js"></script>
+        </div>
+    <br>
+    <div class="footer">
+        Maria Fernanda Antonio Escamilla 20307003
+    </div>
+</body>
+</html>
